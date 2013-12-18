@@ -1,0 +1,93 @@
+/*Simple reset*/
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #fff;
+	text-decoration: none;	
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: Verdana;
+	font-size: 16px;
+	background: white;
+	color: #fff;
+}
+h2{
+    color: black;
+    
+}
+nav{
+	background: gray;
+	height: 100%;
+	left: -290px;
+	position: fixed;
+	width: 200px;
+	z-index: 3;
+	cursor: pointer;
+	border-right: 3px solid yellow;
+	text-align: center;
+	-webkit-transition: all 1100ms cubic-bezier(0.205, 0.475, 0.720, 1);
+	-webkit-transition: all 1100ms cubic-bezier(0.205, 0.475, 0.720, 1);
+    -moz-transition: all 1100ms cubic-bezier(0.205, 0.475, 0.720, 1);
+    -o-transition: all 1100ms cubic-bezier(0.205, 0.475, 0.720, 1);
+    transition: all 1100ms cubic-bezier(0.205, 0.475, 0.720, 1);
+}
+nav:hover, nav:after:hover{
+	left: 0;
+}
+nav:after{
+	content:" ";
+	display: block;
+	height: 40px;
+	width: 40px;
+	left: 270px;
+	margin-top: -8px;
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+	background-size: 50px 50px;
+	border-radius: 3px 3px 3px;
+	background: -webkit-gradient(linear, 0 0, 0 100%);
+	background: linear-gradient(#EBFF02 0%, #ADADAD 20%, #000000 20%, #ADADAD 20%, #000000 20%, #000000 20%, #000000 40%, #EBFF02 40%, #ADADAD 40%, #ADADAD 60%, #000000 60%, #000000 60%, #000000 81%, #ADADAD 81%, #EBFF02 100%);
+}
+nav h2{
+	border: 3px solid yellow;
+	border-radius: 50%;
+	width: 40px;
+	padding: 25px;
+	margin: 0 auto;
+	margin-top: 42px;
+	
+}
+h2 a{
+	color: yellow;
+}
+nav ul{
+	margin: 0 auto;
+	padding: 45px;
+	
+}
+nav li{
+	font-size: 24px;
+	width: 78px;
+	text-align: center;
+	padding: 8px;
+
+	
+}
+nav li{
+	list-style-type: none;
+	color: yellow;
+}
+a{
+	text-decoration: none;
+	color: yellow;
+}
+
+
